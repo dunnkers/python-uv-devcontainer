@@ -6,7 +6,7 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
 1. Clone this repo
 
-    ![alt text](<docs/Screenshot 2025-04-23 at 17.19.10.png>)
+    ![alt text](<docs/Screenshot 2025-04-23 at 17.19.10.png> | width=100)
 2. Reopen in Container
 
     <small>Click the button in the popup upon opening the repo:</small>
