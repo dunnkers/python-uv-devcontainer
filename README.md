@@ -2,6 +2,16 @@
 
 Python project setup using a [Devcontainer](https://containers.dev) and [uv](https://github.com/astral-sh/uv).
 
+Features:
+
+- [x] [Devcontainer](https://github.com/devcontainers/images/tree/main/src/python) running Python 3.13
+- [x] [uv](https://github.com/astral-sh/uv) for dependency management and virtual environment management
+- [x] [ruff](https://github.com/astral-sh/ruff) for formatting and linting
+- [x] [pytest](https://docs.pytest.org/en/stable/) for testing
+- [x] [Dockerfile](https://github.com/dunnkers/python-uv-devcontainer/blob/main/Dockerfile) for easy deployment
+- [x] [GitHub Actions](https://github.com/dunnkers/python-uv-devcontainer/actions) for CI/CD
+
+
 ## Setup
 
 1. **Clone this repo**
@@ -22,57 +32,6 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
     ![alt text](<docs/Screenshot 2025-04-23 at 17.29.45.png>)
 
     🎉
-
-## Features
-
-- **pytest**
-
-    Run tests with pytest.
-
-    ```
-    pytest tests
-    ```
-
-- **uv**
-
-    Dependency management and virtual environment management with uv.
-
-    ```
-    uv add pandas
-    ```
-
-- **ruff**
-
-    Linting and formatting with ruff.
-
-    Linting:
-
-    ```
-    ruff check .
-    ```
-
-    Formatting:
-
-    ```
-    ruff format .
-    ```
-
-- **CI/CD**
-
-    CI/CD with GitHub Actions.
-
-    - **Linting**: Linting with ruff.
-    - **Formatting**: Formatting with ruff.
-    - **Testing**: Testing with pytest.
-    - **Dependency management**: Dependency management with uv.
-
-- **Docker**
-
-    Build and run your Python project in a Docker container.
-
-    ```
-    docker build -t my-python-app .
-    ```
 
 ## About
 
