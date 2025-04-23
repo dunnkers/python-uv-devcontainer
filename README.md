@@ -4,10 +4,10 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
 ## Setup
 
-1. Clone this repo
+1. **Clone this repo**
 
     <img src="docs/Screenshot 2025-04-23 at 17.19.10.png" alt="Clone repository" width="300"/>
-2. Reopen in Container
+2. **Reopen in Container**
 
     <small>Click the button in the popup upon opening the repo:</small>
 
@@ -15,7 +15,9 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
     Alternatively, enter <kbd>Ctrl+Shift+P</kbd> and select **Dev Containers: Reopen in Container**.
 
-3. Enjoy a fully configured Python development environment with uv!
+3. **Enjoy 🫶**
+
+    Enjoy a fully configured Python development environment with uv!
 
     ![alt text](<docs/Screenshot 2025-04-23 at 17.29.45.png>)
 
