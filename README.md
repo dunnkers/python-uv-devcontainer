@@ -61,6 +61,8 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
     all readily available ✓.
 
+- CI/CD
+
     CI/CD is covered with GitHub Actions. A workflow running testing/linting/formatting is already set up for you.
 
     ![alt text](<docs/Screenshot 2025-04-23 at 18.06.47.png>)
