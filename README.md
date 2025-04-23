@@ -41,27 +41,34 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
 5. **Enjoy 🫶**
 
-    You now have a fully configured Python development environment with uv!
+    You now have a fully configured Python development environment!
 
     ![alt text](<docs/Screenshot 2025-04-23 at 17.29.45.png>)
 
-    with tools like `pytest`:
+    with `uv`!
+
+    <img src="docs/Screenshot 2025-04-23 at 18.24.49.png" width="500"/>
+
+    `pytest`:
 
     | UI | Terminal |
     |:--:|:--:|
     | ![alt text](<docs/Screenshot 2025-04-23 at 18.10.07.png>) | ![alt text](<docs/Screenshot 2025-04-23 at 18.11.34.png>) |
 
-    ... and `ruff` and `uv` readily available:
+    ... and `ruff`:
 
     <img src="docs/Screenshot 2025-04-23 at 18.03.49.png" width="500"/>
+
+    readily available ✓.
 
     CI/CD is covered with GitHub Actions. A workflow running testing/linting/formatting is already set up for you.
 
     ![alt text](<docs/Screenshot 2025-04-23 at 18.06.47.png>)
 
+    🎉
+
     Good luck developing! 🍀
 
-    🎉
 
 ## About
 
