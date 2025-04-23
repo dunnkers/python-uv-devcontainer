@@ -2,7 +2,7 @@
 
 Python project setup using a [Devcontainer](https://containers.dev) and [uv](https://github.com/astral-sh/uv).
 
-Features:
+## Features
 
 - [x] [Devcontainer](https://github.com/devcontainers/images/tree/main/src/python) running Python 3.13
 - [x] [uv](https://github.com/astral-sh/uv) for dependency management and virtual environment management
@@ -25,9 +25,11 @@ Features:
 
     Alternatively, enter <kbd>Ctrl+Shift+P</kbd> and select **Dev Containers: Reopen in Container**.
 
+    Upon opening the container dependencies will installed. Wait a bit for all dependencies to install.
+
 3. **Enjoy 🫶**
 
-    Enjoy a fully configured Python development environment with uv!
+    You now have a fully configured Python development environment with uv!
 
     ![alt text](<docs/Screenshot 2025-04-23 at 17.29.45.png>)
 
