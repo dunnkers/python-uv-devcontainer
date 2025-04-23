@@ -25,11 +25,13 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
     Alternatively, enter <kbd>Ctrl+Shift+P</kbd> and select **Dev Containers: Reopen in Container**.
 
-    Upon opening the Devcontainer, setup will start. Wait for the setup to finish.
+3. **Wait for setup to finish**
+
+    Upon opening the Devcontainer, setup will start. Wait for the setup to finish before continuing.
 
     ![alt text](<docs/Screenshot 2025-04-23 at 18.00.10.png>)
 
-3. **Select Python interpreter**
+4. **Select Python interpreter**
 
     Enter <kbd>Ctrl+Shift+P</kbd> and select **Python: Select Interpreter**. 
 
@@ -37,21 +39,23 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
     Select the **venv** (`./.venv/bin/python`).
 
-4. **Enjoy 🫶**
+5. **Enjoy 🫶**
 
     You now have a fully configured Python development environment with uv!
 
     ![alt text](<docs/Screenshot 2025-04-23 at 17.29.45.png>)
 
-    ... with pytest:
+    with tools like `pytest`:
 
-    ![alt text](<docs/Screenshot 2025-04-23 at 17.58.16.png>)
+    | UI | Terminal |
+    |:--:|:--:|
+    | ![alt text](<docs/Screenshot 2025-04-23 at 18.10.07.png>) | ![alt text](<docs/Screenshot 2025-04-23 at 18.11.34.png>) |
 
-    ... and tooling like `ruff` and `uv` readily available:
+    ... and `ruff` and `uv` readily available:
 
     <img src="docs/Screenshot 2025-04-23 at 18.03.49.png" width="500"/>
 
-    ... and CI/CD set up with GitHub Actions:
+    CI/CD is covered with GitHub Actions. A workflow running testing/linting/formatting is already set up for you.
 
     ![alt text](<docs/Screenshot 2025-04-23 at 18.06.47.png>)
 
