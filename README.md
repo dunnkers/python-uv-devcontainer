@@ -6,10 +6,10 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
 - [x] [Devcontainer](https://github.com/devcontainers/images/tree/main/src/python) running Python 3.13
 - [x] [uv](https://github.com/astral-sh/uv) for dependency management and virtual environment management
-- [x] [ruff](https://github.com/astral-sh/ruff) for formatting and linting
 - [x] [pytest](https://docs.pytest.org/en/stable/) for testing
-- [x] [Dockerfile](https://github.com/dunnkers/python-uv-devcontainer/blob/main/Dockerfile) for easy deployment
+- [x] [ruff](https://github.com/astral-sh/ruff) for formatting and linting
 - [x] [GitHub Actions](https://github.com/dunnkers/python-uv-devcontainer/actions) for CI/CD
+- [x] [Dockerfile](https://github.com/dunnkers/python-uv-devcontainer/blob/main/Dockerfile) for easy deployment
 
 
 ## Setup
@@ -43,13 +43,13 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
     You now have a fully configured Python development environment!
 
-    ![alt text](<docs/Screenshot 2025-04-23 at 17.29.45.png>)
+    ![alt text](<docs/Screenshot 2025-04-23 at 18.28.17.png>)
 
     with `uv`!
 
     <img src="docs/Screenshot 2025-04-23 at 18.24.49.png" width="500"/>
 
-    `pytest`:
+    and `pytest`:
 
     | UI | Terminal |
     |:--:|:--:|
