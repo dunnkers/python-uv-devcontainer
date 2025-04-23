@@ -17,7 +17,7 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
 3. Enjoy a fully configured Python development environment with uv!
 
-    ![alt text](<docs/Screenshot 2025-04-23 at 17.23.46.png>)
+    ![alt text](<docs/Screenshot 2025-04-23 at 17.29.45.png>)
 
     🎉
 
@@ -43,13 +43,13 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
     Linting and formatting with ruff.
 
-    **Linting:**
+    Linting:
 
     ```
     ruff check .
     ```
 
-    **Formatting:**
+    Formatting:
 
     ```
     ruff format .
