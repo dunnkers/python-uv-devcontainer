@@ -45,7 +45,7 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
     ![alt text](<docs/Screenshot 2025-04-23 at 18.28.17.png>)
 
-    with `uv`!
+    with `uv`:
 
     <img src="docs/Screenshot 2025-04-23 at 18.24.49.png" width="500"/>
 
@@ -59,7 +59,7 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
     <img src="docs/Screenshot 2025-04-23 at 18.03.49.png" width="500"/>
 
-    readily available ✓.
+    all readily available ✓.
 
     CI/CD is covered with GitHub Actions. A workflow running testing/linting/formatting is already set up for you.
 
@@ -67,7 +67,7 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
     🎉
 
-    Good luck developing! 🍀
+Good luck developing! 🍀
 
 
 ## About
