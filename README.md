@@ -16,22 +16,46 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
 1. **Clone this repo**
 
-    <img src="docs/Screenshot 2025-04-23 at 17.19.10.png" alt="Clone repository" width="300"/>
+    <img src="docs/Screenshot 2025-04-23 at 17.19.10.png" alt="Clone repository" width="400"/>
 2. **Reopen in Container**
 
-    <small>Click the button in the popup upon opening the repo:</small>
+    Click the button in the popup upon opening the repo:
 
     ![alt text](<docs/Screenshot 2025-04-23 at 17.20.22.png>)
 
     Alternatively, enter <kbd>Ctrl+Shift+P</kbd> and select **Dev Containers: Reopen in Container**.
 
-    Upon opening the container dependencies will installed. Wait a bit for all dependencies to install.
+    Upon opening the Devcontainer, setup will start. Wait for the setup to finish.
 
-3. **Enjoy 🫶**
+    ![alt text](<docs/Screenshot 2025-04-23 at 18.00.10.png>)
+
+3. **Select Python interpreter**
+
+    Enter <kbd>Ctrl+Shift+P</kbd> and select **Python: Select Interpreter**. 
+
+    <img src="docs/Screenshot 2025-04-23 at 17.53.28.png" alt="VSCode: Python Select Interpreter" width="500"/>
+
+    Select the **venv** (`./.venv/bin/python`).
+
+4. **Enjoy 🫶**
 
     You now have a fully configured Python development environment with uv!
 
     ![alt text](<docs/Screenshot 2025-04-23 at 17.29.45.png>)
+
+    ... with pytest:
+
+    ![alt text](<docs/Screenshot 2025-04-23 at 17.58.16.png>)
+
+    ... and tooling like `ruff` and `uv` readily available:
+
+    <img src="docs/Screenshot 2025-04-23 at 18.03.49.png" width="500"/>
+
+    ... and CI/CD set up with GitHub Actions:
+
+    ![alt text](<docs/Screenshot 2025-04-23 at 18.06.47.png>)
+
+    Good luck developing! 🍀
 
     🎉
 
