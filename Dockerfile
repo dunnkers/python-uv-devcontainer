@@ -16,6 +16,6 @@ ENV UV_LINK_MODE=copy \
 ## Install package
 WORKDIR /app
 ADD pyproject.toml uv.lock /app/
-RUN uv sync --no-dev --locked --no-install-package sligro
+RUN uv sync --no-dev --locked --no-install-package example_project
 ADD src /app
 RUN uv sync --no-dev --locked --no-editable
