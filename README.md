@@ -16,7 +16,7 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
 1. **Clone this repo**
 
-    <img src="docs/Screenshot 2025-04-23 at 17.19.10.png" alt="Clone repository" width="400"/>
+    <img src="docs/Screenshot 2025-04-23 at 17.19.10.png" alt="Clone repository" width="350"/>
 
     Open the repo in VSCode.
 
@@ -24,7 +24,7 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
     Click the button in the popup upon opening the repo:
     
-    <img src="docs/Screenshot 2025-04-24 at 11.59.28.png" alt="Dev Containers: Reopen in Container" width="400"/>
+    <img src="docs/Screenshot 2025-04-24 at 11.59.28.png" alt="Dev Containers: Reopen in Container" width="500"/>
 
     Alternatively, enter <kbd>Ctrl+Shift+P</kbd> and select **Dev Containers: Reopen in Container**.
 
@@ -32,7 +32,7 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
     Upon opening the Devcontainer, setup will start. Wait for the setup to finish before continuing.
 
-    ![alt text](<docs/Screenshot 2025-04-23 at 18.00.10.png>)
+    <img src="docs/Screenshot 2025-04-23 at 18.00.10.png" alt="Wait for postCreateCommand to finish" width="500"/>
 
 4. **Select Python interpreter**
 
@@ -50,7 +50,7 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
     with `uv`:
 
-    <img src="docs/Screenshot 2025-04-23 at 18.24.49.png" width="500"/>
+    <img src="docs/Screenshot 2025-04-23 at 18.24.49.png" width="600"/>
 
     and `pytest`:
 
@@ -60,13 +60,9 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
     ... and `ruff`:
 
-    <img src="docs/Screenshot 2025-04-23 at 18.03.49.png" width="500"/>
+    <img src="docs/Screenshot 2025-04-23 at 18.03.49.png" width="600"/>
 
-    all readily available ✓
-
-    🎉
-
-Good luck developing! 🍀
+    all readily available 🎉
 
 ## Extras
 
