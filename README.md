@@ -17,11 +17,14 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 1. **Clone this repo**
 
     <img src="docs/Screenshot 2025-04-23 at 17.19.10.png" alt="Clone repository" width="400"/>
+
+    Open the repo in VSCode.
+
 2. **Reopen in Container**
 
     Click the button in the popup upon opening the repo:
-
-    ![alt text](<docs/Screenshot 2025-04-23 at 17.20.22.png>)
+    
+    <img src="docs/Screenshot 2025-04-24 at 11.59.28.png" alt="Dev Containers: Reopen in Container" width="400"/>
 
     Alternatively, enter <kbd>Ctrl+Shift+P</kbd> and select **Dev Containers: Reopen in Container**.
 
@@ -59,7 +62,13 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
     <img src="docs/Screenshot 2025-04-23 at 18.03.49.png" width="500"/>
 
-    all readily available ✓.
+    all readily available ✓
+
+    🎉
+
+Good luck developing! 🍀
+
+## Extras
 
 - **CI/CD with GitHub Actions**
 
@@ -67,11 +76,11 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
     ![alt text](<docs/Screenshot 2025-04-23 at 18.06.47.png>)
 
-    The workflow sets up your project with `uv` and runs `pytest` and `ruff`. 
+    This workflow runs tests using `pytest` and formatting + linting using `ruff`. Dependencies are set up with `uv`. 
 
-    🎉
+- **Dockerfile**
 
-Good luck developing! 🍀
+    A [Dockerfile](https://github.com/dunnkers/python-uv-devcontainer/blob/main/Dockerfile) is provided for easy deployment. This Dockerfile uses the same base image as the Devcontainer, so you can be sure it will work in production.
 
 
 ## About
