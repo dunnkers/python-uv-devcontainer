@@ -16,9 +16,9 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
 1. **Use this template**
 
-    <img src="docs/Screenshot 2025-04-25 at 10.57.33.png" alt="Use this template and create new repository" width="200"/>
+    <a href="https://github.com/new?template_name=python-uv-devcontainer&template_owner=dunnkers"><img src="docs/Screenshot 2025-04-25 at 10.57.33.png" alt="Use this template and create new repository" width="300"/></a>
 
-    Create a new repository based on this template.
+    [Create a new repository](https://github.com/new?template_name=python-uv-devcontainer&template_owner=dunnkers) based on this template.
 
 2. **Clone repo**
 
@@ -30,7 +30,7 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
     Click the button in the popup upon opening the repo:
     
-    <img src="docs/Screenshot 2025-04-24 at 11.59.28.png" alt="Dev Containers: Reopen in Container" width="500"/>
+    <img src="docs/Screenshot 2025-04-24 at 11.59.28.png" alt="Dev Containers: Reopen in Container" width="450"/>
 
     Alternatively, enter <kbd>Ctrl+Shift+P</kbd> and select **Dev Containers: Reopen in Container**.
 
@@ -38,7 +38,7 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
     Upon opening the Devcontainer, setup will start. Wait for the setup to finish before continuing.
 
-    <img src="docs/Screenshot 2025-04-23 at 18.00.10.png" alt="Wait for postCreateCommand to finish" width="500"/>
+    <img src="docs/Screenshot 2025-04-23 at 18.00.10.png" alt="Wait for postCreateCommand to finish" width="600"/>
 
 5. **Select Python interpreter**
 
@@ -56,7 +56,7 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
     with `uv`:
 
-    <img src="docs/Screenshot 2025-04-23 at 18.24.49.png" width="600"/>
+    <img src="docs/Screenshot 2025-04-23 at 18.24.49.png" width="700"/>
 
     and `pytest`:
 
@@ -66,7 +66,7 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
     ... and `ruff`:
 
-    <img src="docs/Screenshot 2025-04-23 at 18.03.49.png" width="600"/>
+    <img src="docs/Screenshot 2025-04-23 at 18.03.49.png" width="700"/>
 
     all readily available 🎉
 
