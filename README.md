@@ -14,13 +14,19 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
 ## Setup
 
-1. **Clone this repo**
+1. **Use this template**
+
+    <img src="docs/Screenshot 2025-04-25 at 10.57.33.png" alt="Use this template and create new repository" width="200"/>
+
+    Create a new repository based on this template.
+
+2. **Clone repo**
 
     <img src="docs/Screenshot 2025-04-23 at 17.19.10.png" alt="Clone repository" width="350"/>
 
     Open the repo in VSCode.
 
-2. **Reopen in Container**
+3. **Reopen in Container**
 
     Click the button in the popup upon opening the repo:
     
@@ -28,13 +34,13 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
     Alternatively, enter <kbd>Ctrl+Shift+P</kbd> and select **Dev Containers: Reopen in Container**.
 
-3. **Wait for setup to finish**
+4. **Wait for setup to finish**
 
     Upon opening the Devcontainer, setup will start. Wait for the setup to finish before continuing.
 
     <img src="docs/Screenshot 2025-04-23 at 18.00.10.png" alt="Wait for postCreateCommand to finish" width="500"/>
 
-4. **Select Python interpreter**
+5. **Select Python interpreter**
 
     Enter <kbd>Ctrl+Shift+P</kbd> and select **Python: Select Interpreter**. 
 
@@ -42,7 +48,7 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
     Select the **venv** (`./.venv/bin/python`).
 
-5. **Enjoy 🫶**
+6. **Enjoy 🫶**
 
     You now have a fully configured Python development environment!
 
