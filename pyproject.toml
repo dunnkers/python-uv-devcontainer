@@ -1,5 +1,5 @@
 [project]
-name = "python-project-setup-with-uv"
+name = "python-uv-devcontainer"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"

@@ -1,5 +1,8 @@
 # python-uv-devcontainer
 
+[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv) [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff) [![Open in Remote - Containers](https://img.shields.io/static/v1?label=Remote%20-%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/dunnkers/python-uv-devcontainer.git)
+
+
 Python project setup using a [Devcontainer](https://containers.dev) and [uv](https://github.com/astral-sh/uv).
 
 ## Features
@@ -13,45 +16,53 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
 ## Setup
 
-1. **Use this template**
+Setup is easy. Open this repo in a [GitHub Codespace](https://github.com/features/codespaces) or in a [VSCode Devcontainer](https://code.visualstudio.com/docs/devcontainers/create-dev-container).
 
-    <a href="https://github.com/new?template_name=python-uv-devcontainer&template_owner=dunnkers"><img src="https://github.com/user-attachments/assets/45df28b9-9210-4cd4-a6c5-25ad3c8edb55" alt="Use this template and create new repository" width="250"/></a>
-    
-    [Create a new repository](https://github.com/new?template_name=python-uv-devcontainer&template_owner=dunnkers) based on this template.
+1. **GitHub Codespace**
 
-2. **Clone repo**
+    [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/dunnkers/python-uv-devcontainer?quickstart=1)
 
-    <img src="https://github.com/user-attachments/assets/3aa1891b-d19b-4c8e-acad-b5e46eb18250" alt="Clone repository" width="375"/>
+2. **VSCode Devcontainer**
 
-    Open the repo in VSCode.
+    1. **Use this template**
 
-> [!TIP]
-> This Devcontainer can also be directly used with a GitHub Codespace.
-> [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/dunnkers/python-uv-devcontainer?quickstart=1)
+        <a href="https://github.com/new?template_name=python-uv-devcontainer&template_owner=dunnkers"><img src="https://github.com/user-attachments/assets/45df28b9-9210-4cd4-a6c5-25ad3c8edb55" alt="Use this template and create new repository" width="250"/></a>
+        
+        [Create a new repository](https://github.com/new?template_name=python-uv-devcontainer&template_owner=dunnkers) based on this template.
 
-3. **Reopen in Container**
+    2. **Clone repo**
 
-    Click the button in the popup upon opening the repo:
-    
-    <img src="https://github.com/user-attachments/assets/c89c6643-768b-427d-b10f-a51ddbe76282" alt="Dev Containers: Reopen in Container" width="475"/>
+        <img src="https://github.com/user-attachments/assets/3aa1891b-d19b-4c8e-acad-b5e46eb18250" alt="Clone repository" width="375"/>
 
-    Alternatively, enter <kbd>Ctrl+Shift+P</kbd> and select **Dev Containers: Reopen in Container**.
+        Open the repo in VSCode.
 
-4. **Wait for setup to finish**
+    > [!TIP]
+    > This Devcontainer can also be directly used with a GitHub Codespace.
+    > 
 
-    Upon opening the Devcontainer, setup will start. Wait for the setup to finish before continuing.
+    3. **Reopen in Container**
 
-    <img src="https://github.com/user-attachments/assets/28dceed1-abb2-4be5-aa25-ff1c8ad38455" alt="Wait for postCreateCommand to finish" width="600"/>
+        Click the button in the popup upon opening the repo:
+        
+        <img src="https://github.com/user-attachments/assets/c89c6643-768b-427d-b10f-a51ddbe76282" alt="Dev Containers: Reopen in Container" width="475"/>
 
-5. **Select Python interpreter**
+        Alternatively, enter <kbd>Ctrl+Shift+P</kbd> and select **Dev Containers: Reopen in Container**.
 
-    Enter <kbd>Ctrl+Shift+P</kbd> and select **Python: Select Interpreter**. 
+    4. **Wait for setup to finish**
 
-    <img src="https://github.com/user-attachments/assets/3efa1de7-5bd3-4b1e-aaa8-455773396c81" alt="VSCode: Python Select Interpreter" width="500"/>
+        Upon opening the Devcontainer, setup will start. Wait for the setup to finish before continuing.
 
-    Select the **venv** (`./.venv/bin/python`).
+        <img src="https://github.com/user-attachments/assets/28dceed1-abb2-4be5-aa25-ff1c8ad38455" alt="Wait for postCreateCommand to finish" width="600"/>
 
-6. **Enjoy 🫶**
+    5. **Select Python interpreter**
+
+        Enter <kbd>Ctrl+Shift+P</kbd> and select **Python: Select Interpreter**. 
+
+        <img src="https://github.com/user-attachments/assets/3efa1de7-5bd3-4b1e-aaa8-455773396c81" alt="VSCode: Python Select Interpreter" width="500"/>
+
+        Select the **venv** (`./.venv/bin/python`).
+
+3. **Enjoy 🫶**
 
     You now have a fully configured Python development environment!
 
@@ -86,6 +97,8 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 - **Dockerfile**
 
     A [Dockerfile](https://github.com/dunnkers/python-uv-devcontainer/blob/main/Dockerfile) is provided for easy deployment. This Dockerfile uses the same base image as the Devcontainer, so you can be sure it will work in production.
+
+    
 
 
 ## About
