@@ -1,2 +1,2 @@
-def main():
-    print("Hello from python-project-setup-with-uv!")
+def say_hello() -> str:
+    return "Hello from python-uv-devcontainer!"
