@@ -16,21 +16,26 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
 1. **Use this template**
 
-    <a href="https://github.com/new?template_name=python-uv-devcontainer&template_owner=dunnkers"><img src="docs/Screenshot 2025-04-25 at 10.57.33.png" alt="Use this template and create new repository" width="300"/></a>
+    <a href="https://github.com/new?template_name=python-uv-devcontainer&template_owner=dunnkers"><img src="docs/Screenshot 2025-04-25 at 10.57.33.png" alt="Use this template and create new repository" width="250"/></a>
 
     [Create a new repository](https://github.com/new?template_name=python-uv-devcontainer&template_owner=dunnkers) based on this template.
 
 2. **Clone repo**
 
-    <img src="docs/Screenshot 2025-04-23 at 17.19.10.png" alt="Clone repository" width="350"/>
+    <img src="docs/Screenshot 2025-04-23 at 17.19.10.png" alt="Clone repository" width="375"/>
 
     Open the repo in VSCode.
+
+    > [!TIP]
+    > This Devcontainer can also be directly used with a GitHub Codespace.
+    >
+    > [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/dunnkers/python-uv-devcontainer?quickstart=1)
 
 3. **Reopen in Container**
 
     Click the button in the popup upon opening the repo:
     
-    <img src="docs/Screenshot 2025-04-24 at 11.59.28.png" alt="Dev Containers: Reopen in Container" width="450"/>
+    <img src="docs/Screenshot 2025-04-24 at 11.59.28.png" alt="Dev Containers: Reopen in Container" width="475"/>
 
     Alternatively, enter <kbd>Ctrl+Shift+P</kbd> and select **Dev Containers: Reopen in Container**.
 
