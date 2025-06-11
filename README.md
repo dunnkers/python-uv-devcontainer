@@ -25,10 +25,9 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
     Open the repo in VSCode.
 
-    > [!TIP]
-    > This Devcontainer can also be directly used with a GitHub Codespace.
-    
-    > [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/dunnkers/python-uv-devcontainer?quickstart=1)
+> [!TIP]
+> This Devcontainer can also be directly used with a GitHub Codespace.
+> [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/dunnkers/python-uv-devcontainer?quickstart=1)
 
 3. **Reopen in Container**
 
