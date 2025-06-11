@@ -22,6 +22,9 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 <img width="744" alt="Screenshot 2025-04-23 at 17 53 28" src="https://github.com/user-attachments/assets/3efa1de7-5bd3-4b1e-aaa8-455773396c81" />
 <img width="425" alt="Screenshot 2025-04-23 at 17 19 10" src="https://github.com/user-attachments/assets/3aa1891b-d19b-4c8e-acad-b5e46eb18250" />
 
+<img width="1331" alt="437371719-b21ca5f3-3b7c-4c71-9ec0-8841146d5ea1" src="https://github.com/user-attachments/assets/aa6a1720-cc7a-4412-be2f-e76ccefed033" />
+
+
 ## Setup
 
 1. **Use this template**
