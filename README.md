@@ -1,6 +1,6 @@
 # python-uv-devcontainer
 
-[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff) [![Open in Remote - Containers](https://img.shields.io/static/v1?label=Remote%20-%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/dunnkers/python-uv-devcontainer.git)
+[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv) [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff) [![Open in Remote - Containers](https://img.shields.io/static/v1?label=Remote%20-%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/dunnkers/python-uv-devcontainer.git)
 
 
 Python project setup using a [Devcontainer](https://containers.dev) and [uv](https://github.com/astral-sh/uv).
@@ -8,7 +8,7 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 ## Features
 
 - [x] [Devcontainer](https://github.com/devcontainers/images/tree/main/src/python) running Python 3.13
-- [x] [uv](https://github.com/astral-sh/uv) for dependency management and virtual environment management [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
+- [x] [uv](https://github.com/astral-sh/uv) for dependency management and virtual environment management
 - [x] [ruff](https://github.com/astral-sh/ruff) for formatting and linting
 - [x] [pytest](https://docs.pytest.org/en/stable/) for testing
 - [x] [GitHub Actions](https://github.com/dunnkers/python-uv-devcontainer/actions) for CI/CD
@@ -16,7 +16,7 @@ Python project setup using a [Devcontainer](https://containers.dev) and [uv](htt
 
 ## Setup
 
-Setup is easy. Follow these steps to setup using **VSCode**:
+Getting started is easy. Follow these steps:
 
 1. **Use this template**
 
@@ -24,14 +24,11 @@ Setup is easy. Follow these steps to setup using **VSCode**:
     
     [Create a new repository](https://github.com/new?template_name=python-uv-devcontainer&template_owner=dunnkers) based on this template.
 
-    > Alternatively, you can also open the repository in a GitHub Codespace:
-    > [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/dunnkers/python-uv-devcontainer?quickstart=1)
-
 2. **Clone repo**
 
     <img src="https://github.com/user-attachments/assets/3aa1891b-d19b-4c8e-acad-b5e46eb18250" alt="Clone repository" width="375"/>
 
-    Open the repo in VSCode.
+    Open the repo in **VSCode**.
 
 3. **Reopen in Container**
 
